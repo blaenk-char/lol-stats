@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme static {
+  /* primary */
+  --color-cyan-50: #f0faff;
+  --color-cyan-100: #dff5ff;
+  --color-cyan-200: #b8ebff;
+  --color-cyan-300: #78ddff;
+  --color-cyan-400: #4bd1ff;
+  --color-cyan-500: #32c8ff;
+  --color-cyan-600: #16a8df;
+  --color-cyan-700: #1186b4;
+  --color-cyan-800: #136d93;
+  --color-cyan-900: #155a79;
+  --color-cyan-950: #0e3a50;
+
+  /* neutral / surfaces */
+  --color-navy-50: #ffffff;
+  --color-navy-100: #e8ecf4;
+  --color-navy-200: #cfd7e8;
+  --color-navy-300: #aab8d6;
+  --color-navy-400: #7e92be;
+  --color-navy-500: #5b71a3;
+  --color-navy-600: #455986;
+  --color-navy-700: #36466c;
+  --color-navy-800: #293655;
+  --color-navy-900: #1f2941;
+  --color-navy-950: #141e37;
+}
+
+/* Scrollbar */
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

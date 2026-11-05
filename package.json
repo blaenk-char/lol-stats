@@ -1,0 +1,42 @@
+{
+  "name": "lol-stats",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "firebase deploy",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.151",
+    "@iconify-json/simple-icons": "^1.2.101",
+    "@nuxt/ui": "^4.12.0",
+    "@nuxtjs/color-mode": "4.1.0",
+    "@pinia/nuxt": "1.0.3",
+    "@vueuse/core": "^15.0.0",
+    "@vueuse/nuxt": "15.0.0",
+    "firebase": "^11.4.0",
+    "nuxt": "^4.6.4",
+    "pinia": "^4.1.0",
+    "tailwindcss": "^4.3.4",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.17.0",
+    "@types/node": "^26.6.6",
+    "dotenv": "^18.0.9",
+    "eslint": "^10.14.0",
+    "firebase-tools": "^15.35.0",
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.0",
+    "vue-tsc": "^3.3.14",
+    "zod": "^4.6.7"
+  },
+  "packageManager": "pnpm@12.16.1"
+}
