@@ -8,7 +8,6 @@
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "firebase deploy",
     "format": "prettier --write .",
     "lint": "eslint .",
     "typecheck": "nuxt typecheck"
@@ -32,6 +31,7 @@
     "@types/node": "^26.6.6",
     "dotenv": "^18.0.9",
     "eslint": "^10.14.0",
+    "firebase-admin": "^14.5.0",
     "firebase-tools": "^15.35.0",
     "prettier": "^3.9.10",
     "typescript": "~6.0.0",

@@ -1,8 +1,9 @@
 allowBuilds:
-  '@firebase/util': set this to true or false
-  esbuild: set this to true or false
-  protobufjs: set this to true or false
-  vue-demi: set this to true or false
+  '@firebase/util': false
+  esbuild: false
+  protobufjs: false
+  re2: false
+  vue-demi: false
 minimumReleaseAgeExclude:
   - '@vue/compiler-core@3.5.45'
   - '@vue/compiler-dom@3.5.45'
